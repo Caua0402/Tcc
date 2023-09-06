@@ -43,7 +43,18 @@ export const Home = () => {
           
         </section>
         <section className='beneficios'>
+            <h2>Garantimos os melhores benefícios para você!</h2>
+            <div className='card-benefios'>
+                <div className='card-branco'>
 
+                </div>
+                <div className='card-azul'>
+
+                </div>
+                <div className='card-branco'>
+                  
+                </div>
+            </div>
         </section>
       </main>
     </>
