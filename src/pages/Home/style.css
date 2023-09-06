@@ -1,0 +1,35 @@
+header { background-color: #3147F5; display: flex; align-items: center; justify-content: center; height: 72px;}
+
+header .logoEmpresa { position: absolute; left: 35px;}
+
+.links { display: flex; gap: 20px;}
+
+.button a { text-decoration: none; position: relative; left: -10px;} 
+
+.button { background-color: #fff; border-radius: 40px;  width: 92px; height: 35px; position: absolute; right: 30px; display: flex; justify-content: center; align-items: center; }
+
+.exitButton { position: absolute !important; right: 15px !important; }
+
+/* Main */
+.blue { background-color: #3147F5; height: 100vh; display: flex; flex-direction: row;}
+.beneficios { background-color: #F6F6F6; height: fit-content;}
+
+/* Card Tela Home */
+.card { height: 100%; width: 50%; display: flex; flex-direction: column; justify-content: center; gap: 50px; align-items: flex-end;}
+.texts { display: flex; flex-direction: column; align-items: flex-start; gap: 15px;}
+.texts h1 { font-size: 64px; line-height: normal; width: 520px; color: #fff; font-weight: 600;}
+.texts p { width: 471px; font-size: 16px; line-height: normal; font-weight: 300; color: #F3F3F3;}
+
+/* bottons */
+.bottons { width: 460px; display: flex; justify-content: space-between; align-items: center; position: relative; right: 60px;}
+.diarista { text-decoration: none; color: #fff; font-size: 14px; display: flex; width: 210px; height: 61px; padding: 14px 16px; justify-content: center; align-items: center; gap: 8px; flex-shrink: 0; border-radius: 4px; border: 1px solid #FFF;}
+.arrow > path { fill: #fff; }
+.diarista:hover .arrow > *, .diarista:hover { cursor: pointer; background-color: #fff; color: #3147F5; fill: #3147F5;}
+
+
+.contratante { text-decoration: none; color: #fff; font-size: 14px; display: flex; width: 210px; height: 61px; padding: 14px 16px; justify-content: center; align-items: center; gap: 8px; flex-shrink: 0; border-radius: 4px; border: 1px solid #FFF; }
+.contratante:hover .arrow > *, .contratante:hover { cursor: pointer; background-color: #fff; color: #3147F5; fill: #3147F5;}
+
+.img { display: inline-flex; align-items: center; justify-content: flex-start; }
+
+
